@@ -47,4 +47,4 @@ app.delete('/:id', (req, res)=> {
 
 // YOUR ROUTES ABOVE THIS COMMENT /////////////
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
